@@ -2402,7 +2402,8 @@ Customized Bootstrap Buttons
 }
 .btn.btn-lg {
   font-size: 16px;
-  padding: 1em 1.6em;
+  padding: 0.8
+  em 1.4em;
   border-radius: 6px !important;
 
 }
