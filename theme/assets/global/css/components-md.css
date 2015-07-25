@@ -11498,19 +11498,19 @@ White
   background-color: #FFFFFF;
 }
 .white.btn:hover, .white.btn:focus, .white.btn:active, .white.btn.active {
-  color: #666666;
-  background-color: #f5ede5;
+  color: #fff;
+  background-color: #00a1f7;
 }
 .open .white.btn.dropdown-toggle {
-  color: #666666;
-  background-color: #f5ede5;
+  color: #fff;
+  background-color: #00a1f7;
 }
 .white.btn:active, .white.btn.active {
   background-image: none;
-  background-color: #f5ede5;
+  background-color: #00a1f7;
 }
 .white.btn:active:hover, .white.btn.active:hover {
-  background-color: #f5ede5;
+  background-color: #00a1f7;
 }
 .open .white.btn.dropdown-toggle {
   background-image: none;
