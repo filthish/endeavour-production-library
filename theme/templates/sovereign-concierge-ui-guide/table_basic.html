@@ -190,10 +190,7 @@
 							<a href="table_basic.html">
 							Basic Datatables</a>
 						</li>
-						<li>
-							<a href="table_responsive.html">
-							Responsive Datatables</a>
-						</li>
+
 						<li>
 							<a href="table_managed.html">
 							Managed Datatables</a>
@@ -284,12 +281,12 @@
 			<!-- END PAGE HEADER-->
 			<!-- BEGIN PAGE CONTENT-->
 			<div class="row">
-				<div class="col-md-6">
+				<div class="col-md-9">
 					<!-- BEGIN SAMPLE TABLE PORTLET-->
 					<div class="portlet box red">
 						<div class="portlet-title">
 							<div class="caption">
-								Simple Table
+								Simple Table / Passenger Actions
 							</div>
 							<div class="tools">
 								<a href="javascript:;" class="collapse">
@@ -308,94 +305,144 @@
 								<thead>
 								<tr>
 									<th>
-										 #
+										 ACTIONS
 									</th>
 									<th>
-										 First Name
+										 PRIORITY
 									</th>
 									<th>
-										 Last Name
+										 END DATE
 									</th>
 									<th>
-										 Username
+										 ASSIGNEE
 									</th>
 									<th>
-										 Status
+										 STATUS
+									</th>
+									<th>
+										 &nbsp;
 									</th>
 								</tr>
 								</thead>
 								<tbody>
 								<tr>
 									<td>
-										 1
+										 <strong>Lorem Ipsum</strong>
+										 <br/>
+										 Lorem ipsum dolor sit amet mi est valor . . .
 									</td>
 									<td>
-										 Mark
+										 HIGH
 									</td>
 									<td>
-										 Otto
+										 12:30 PM
+										 <br/>
+										 12/06/15
 									</td>
 									<td>
-										 makr124
+										 LJay
 									</td>
 									<td>
-										<span class="label label-sm label-success">
-										Approved </span>
+										 PENDING
 									</td>
+									<td>&nbsp;</td>
+								</tr>
+								<tr>
+									<td style="position:relative;">
+										<div style="position:absolute;left:-1px;top:-6px;
+											width: 0; height: 0; 
+											border-top: 10px solid transparent;
+											border-bottom: 10px solid transparent;
+											border-right:10px solid #f27748;
+											-ms-transform: rotate(-135deg); /* IE 9 */
+    										-webkit-transform: rotate(-135deg); /* Safari */
+    										transform: rotate(45deg);
+										">&nbsp;</div>
+										 <strong>Dolor Sit Amet</strong>
+										 <br/>
+										 Dolor sit amet adispicing quad . . .
+									</td>
+									<td>
+										 LOW
+									</td>
+									<td>
+										 08:30 PM
+										 <br/>
+										 13/06/15
+									</td>
+									<td>
+										 MLee
+									</td>
+									<td>
+										 COMPLETE
+									</td>
+									<td><img src="../../../theme/assets/global/img/device_warning.png"/></td>
 								</tr>
 								<tr>
 									<td>
-										 2
+										 <strong>Meet Flight #12345</strong>
+										 <br/>
+										 Thomson Flight at Terminal 2 with . . .
 									</td>
 									<td>
-										 Jacob
+										 HIGH
 									</td>
 									<td>
-										 Nilson
+										 16:30 PM
+										 <br/>
+										 16/06/15
 									</td>
 									<td>
-										 jac123
+										 LJay
 									</td>
 									<td>
-										<span class="label label-sm label-info">
-										Pending </span>
+										 PENDING
 									</td>
+									<td>&nbsp;</td>
 								</tr>
 								<tr>
 									<td>
-										 3
+										 <strong>Lorem Ipsum</strong>
+										 <br/>
+										 Lorem ipsum dolor sit amet . . .
 									</td>
 									<td>
-										 Larry
+										 HIGH
 									</td>
 									<td>
-										 Cooper
+										 12:30 PM
+										 <br/>
+										 12/06/15
 									</td>
 									<td>
-										 lar
+										 LJay
 									</td>
 									<td>
-										<span class="label label-sm label-warning">
-										Suspended </span>
+										 PENDING
 									</td>
+									<td>&nbsp;</td>
 								</tr>
 								<tr>
 									<td>
-										 4
+										 <strong>Lorem Ipsum</strong>
+										 <br/>
+										 Lorem ipsum dolor sit amet . . .
 									</td>
 									<td>
-										 Sandy
+										 HIGH
 									</td>
 									<td>
-										 Lim
+										 12:30 PM
+										 <br/>
+										 12/06/15
 									</td>
 									<td>
-										 sanlim
+										 LJay
 									</td>
 									<td>
-										<span class="label label-sm label-danger">
-										Blocked </span>
+										 PENDING
 									</td>
+									<td>&nbsp;</td>
 								</tr>
 								</tbody>
 								</table>
@@ -404,7 +451,7 @@
 					</div>
 					<!-- END SAMPLE TABLE PORTLET-->
 				</div>
-				<div class="col-md-6">
+				<div class="col-md-3">
 					<!-- BEGIN BORDERED TABLE PORTLET-->
 					<div class="portlet box yellow">
 						<div class="portlet-title">
@@ -428,16 +475,7 @@
 								<thead>
 								<tr>
 									<th>
-										 #
-									</th>
-									<th>
-										 First Name
-									</th>
-									<th>
 										 Last Name
-									</th>
-									<th>
-										 Username
 									</th>
 									<th>
 										 Status
@@ -446,17 +484,8 @@
 								</thead>
 								<tbody>
 								<tr>
-									<td rowspan="2">
-										 1
-									</td>
-									<td>
-										 Mark
-									</td>
 									<td>
 										 Otto
-									</td>
-									<td>
-										 makr124
 									</td>
 									<td>
 										<span class="label label-sm label-success">
@@ -465,13 +494,7 @@
 								</tr>
 								<tr>
 									<td>
-										 Jacob
-									</td>
-									<td>
 										 Nilson
-									</td>
-									<td>
-										 jac123
 									</td>
 									<td>
 										<span class="label label-sm label-info">
@@ -480,16 +503,7 @@
 								</tr>
 								<tr>
 									<td>
-										 2
-									</td>
-									<td>
-										 Larry
-									</td>
-									<td>
 										 Cooper
-									</td>
-									<td>
-										 lar
 									</td>
 									<td>
 										<span class="label label-sm label-warning">
@@ -498,16 +512,7 @@
 								</tr>
 								<tr>
 									<td>
-										 3
-									</td>
-									<td>
-										 Sandy
-									</td>
-									<td>
 										 Lim
-									</td>
-									<td>
-										 sanlim
 									</td>
 									<td>
 										<span class="label label-sm label-danger">
