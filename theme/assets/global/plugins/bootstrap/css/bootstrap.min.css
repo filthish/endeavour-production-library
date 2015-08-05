@@ -23,6 +23,13 @@
 }
 table#glob-pax-search {background-color:transparent;}
 table#glob-pax-search tr{background-color:#fff;border-radius:3px;}
+table#glob-pax-search tbody tr:first-child
+{	margin-top:0;border-radius:0 0 3px 3px;
+	-webkit-box-shadow: inset 0px 10px 10px -5px rgba(102,117,128,0.5);
+	-moz-box-shadow: inset 0px 10px 10px -5px rgba(102,117,128,0.5);
+	box-shadow: inset 0px 10px 10px -5px rgba(102,117,128,0.5);
+}
+table#glob-pax-search tr td{border-top:none;}
 table#glob-pax-search tr td:nth-child(1){width:200px;}
 table#glob-pax-search tr td:nth-child(2),
 table#glob-pax-search tr td:nth-child(3),
@@ -40,13 +47,13 @@ table#glob-pax-search tr td:nth-child(5){width:200px;}
 .table.pax-search>thead tr th{color:#fff;background-color:#0d5280;display:inline;}
 .table.pax-search>tbody tr {margin:10px 5px;float:left;display:inline;width:calc(100% - 10px);}
 .table.pax-search>thead {float:left;width:100%;}
-.table.pax-search>thead th {float:left;padding:8px;width:25%;}
-.table.pax-search>thead th.ref,
-.table.pax-search>thead th.arrival,
+.table.pax-search>thead th {border:none;float:left;padding:8px 15px;width:24%;}
+.table.pax-search>thead th.ref {width:10%;}
+.table.pax-search>thead th.arrival {width:11%;}
 .table.pax-search>thead th.flight {width:10%;}
-.table.pax-search>thead th.actions {width:20%;}
+.table.pax-search>thead th.actions {width:10%;}
 .table.pax-search>thead th. {float:left;padding:8px;width:25%;}
-.table.pax-search>thead tr {display:block;}
+.table.pax-search>thead tr {background-color: #0d5280 !important;height: 36px;display:block;}
 
 .table>thead>tr>th{vertical-align:bottom;border-bottom:2px solid #ddd}
 .table>caption+thead>tr:first-child>td,
